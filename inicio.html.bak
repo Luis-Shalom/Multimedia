@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <title>INETER | Mapas Interactivo Usos de Suelo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+
+  <script>
+    const labels = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+    ];
+
+    const data = {
+      labels: labels,
+      datasets: [{
+        label: 'My First dataset',
+        backgroundColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(255, 99, 132)',
+        data: [0, 10, 5, 2, 20, 30, 45],
+      }]
+    };
+
+    const config = {
+      type: 'line',
+      data: data,
+      options: {}
+    }
+  </script>
+
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<!--script type="text/javascript" src="engine2/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0"><a href="index.html">INETER</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
+              <li><a class="nav-link scrollto" href="#presentacion">Presentacion</a></li>
+              <li><a class="nav-link scrollto" href="#introduccion">Introducción</a></li>              
+              <li><a class="nav-link scrollto" href="#mapas">Mapas</a></li>         
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1>Portal de Mapas Interactivos de Cobertura y Usos de Suelo de Nicaragua</h1>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Sección de Presentación ======= -->
+    <section id="presentacion" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Presentación</h2>
+          <p>El GRUN, a través del INETER desarrolla de manera articulada el monitoreo de la cobertura y usos de la tierra, el cual contribuye a la evaluación de cambios de uso en el territorio para la toma de decisiones en la planificación del desarrollo nacional. Asimismo, es utilizado para la preparación de los datos de actividad que permiten la determinación del nivel de referencia de emisiones, como parte de los compromisos asumidos ante la Convención Marco de Naciones Unidas sobre el Cambio Climático.</p><br>
+          <p>
+          Para tal fin, el INETER ha construido los mapas de coberturas y usos de la tierra de los años 2000, 2005, 2010, 2015 y 2018; los cuales han sido rectificado, estandarizado y homologados para contar con una base histórica nacional oficial. Estos mapas han sido elaborados con imágenes Landsat con una resolución espacial de 30 x 30 metros de pixel y georreferenciadas a una escala de 1:50,000. Actualmente, se está trabajando el mapa de Cobertura y usos de la tierra 2020.
+          </p><br>
+          <p>
+          Los mapas están clasificados en 17 categorías de coberturas y usos de la tierra, los cuales son: Bosque de palma, Bosque de pino abierto, Bosque de pino cerrado, Bosque latifoliado abierto, Bosque latifoliado cerrado, Centros poblados, Cultivos anuales, Cultivos perennes, Manglar, Pasto, Sabana natural, Suelo sin vegetación, Tacotal, Tierras sujetas a inundación, Vegetación arbustiva, Vegetación herbácea y Agua.
+          </p>
+        </div>
+      </div>
+    </section><!-- Fin Sección de Presentación -->    
+
+    <!-- ======= Services Section ======= -->
+    <section id="mapas" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Serie Histórica de Mapas Interactivos</h2>
+          <p>Un mapa de cobertura y uso actual de la tierra puede definirse como una cartografía temática que representa las diferentes formas de ocupación del territorio según un  número variable de categorías predefinidas (uso agropecuario, forestal, centros poblados, humedales, etc.).  Dicha cobertura si es actualizada periódicamente, permite  analizar, desde un punto de vista geográfico, las dinámicas socioeconómicas, productivas y medioambientales expresadas en el territorio, ya sea en escalas Nacional, Regional, Municipal y/o Local. Estos mapas constituyen una base de información temática de utilidad para los tomadores de decisiones, tanto para el análisis de políticas públicas, como, para fines la planificación territorial, ambiental, gestión de riesgos, entre otros.</p>
+          <p>El uso potencial de la tierra se define como la utilización más apropiada que tienen los suelos, para que mediante sistemas adecuados de manejo, dentro de cada medio ambiente, puedan ser sometidos a una explotación sostenida con el mínimo deterioro de los suelos y la menor afectación a los otros recursos naturales conexos. El uso potencial de la tierra no depende únicamente del recurso suelo sino adicionalmente del recurso hídrico y de las costumbres humanas qeu al final determinan la existencia de una necesidad de uso</p>
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container2">
+	<div class="ws_images"><ul>
+		<li><img src="data2/images/cobertura2000.png" alt="cobertura2000" title="cobertura2000" id="wows2_0"/></li>
+		<li><img src="data2/images/cobertura2005.png" alt="cobertura2005" title="cobertura2005" id="wows2_1"/></li>
+		<li><img src="data2/images/cobertura2010.png" alt="cobertura2010" title="cobertura2010" id="wows2_2"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/cobertura2015.png" alt="html slideshow" title="cobertura2015" id="wows2_3"/></a></li>
+		<li><img src="data2/images/cobertura2018.png" alt="cobertura2018" title="cobertura2018" id="wows2_4"/></li>
+	</ul></div>
+	<div class="ws_thumbs">
+<div>
+		<a href="#" title="cobertura2000"><img src="data2/tooltips/cobertura2000.png" alt="" /></a>
+		<a href="#" title="cobertura2005"><img src="data2/tooltips/cobertura2005.png" alt="" /></a>
+		<a href="#" title="cobertura2010"><img src="data2/tooltips/cobertura2010.png" alt="" /></a>
+		<a href="#" title="cobertura2015"><img src="data2/tooltips/cobertura2015.png" alt="" /></a>
+		<a href="#" title="cobertura2018"><img src="data2/tooltips/cobertura2018.png" alt="" /></a>
+	</div>
+</div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap slideshow</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine2/wowslider.js"></script>
+	<script type="text/javascript" src="engine2/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data1/images/cobertura2000.png" alt="cobertura2000" title="cobertura2000" id="wows1_0"/></li>
+		<li><img src="data1/images/cobertura2005.png" alt="cobertura2005" title="cobertura2005" id="wows1_1"/></li>
+		<li><img src="data1/images/cobertura2010.png" alt="cobertura2010" title="cobertura2010" id="wows1_2"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/cobertura2015.png" alt="jquery slideshow" title="cobertura2015" id="wows1_3"/></a></li>
+		<li><img src="data1/images/cobertura2018.png" alt="cobertura2018" title="cobertura2018" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_thumbs">
+<div>
+		<a href="#" title="cobertura2000"><img src="data1/tooltips/cobertura2000.png" alt="" /></a>
+		<a href="#" title="cobertura2005"><img src="data1/tooltips/cobertura2005.png" alt="" /></a>
+		<a href="#" title="cobertura2010"><img src="data1/tooltips/cobertura2010.png" alt="" /></a>
+		<a href="#" title="cobertura2015"><img src="data1/tooltips/cobertura2015.png" alt="" /></a>
+		<a href="#" title="cobertura2018"><img src="data1/tooltips/cobertura2018.png" alt="" /></a>
+	</div>
+</div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap slideshow</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+        </div>
+	      <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+        
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- Sección chart.js -->
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- End Sección chart.js -->
+
+  <!-- ======= Pie de página ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>INETER</span></strong>. Todos los derechos reservados
+      </div>
+    </div>
+  </footer><!-- Fin Pie de página -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+  const myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
+  </script>
+</body>
+
+</html>
